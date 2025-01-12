@@ -1,0 +1,174 @@
+/*login*/
+
+.LoginWrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.FormWrapper{
+background-color: rgb(1, 8, 27);
+border-color: antiquewhite;
+border-radius: 12px;
+padding: 20px;
+width: 400px;
+max-width: 90%;
+
+}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+}
+
+.InputsGroups{
+  display: flex;
+  flex-direction: column;
+}
+
+.FormLabel{
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: rgba(255, 255, 255, 0.329);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn{
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.joinBtn{
+  background: rgb(37, 209, 3);
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover{
+  background-color: rgb(136, 255, 0);
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.createInfo{
+ 
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn{
+color: chartreuse;
+text-decoration: none;
+border-bottom: 1px solid chartreuse;
+transition: all 0.5s ease-in-out;
+}
+
+.createNewBtn:hover{
+  color:rgb(87, 172, 2)
+}
+
+
+/*EDIDTOR*/
+.mainWrap{
+
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside{
+  background-color: rgba(3, 136, 14, 0.692);
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner{
+  flex: 1;
+}
+
+.ClientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username{
+  margin-top: 10px;
+}
+
+.Logo{
+  background-color: black;
+  border-style: dotted;
+  border-color: aliceblue ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.copy-btn{
+  background: rgb(255, 255, 255);
+  width: 160px;
+  margin: 10px;
+  align-self: center;
+}
+
+.copy-btn:hover{
+  background-color: rgb(179, 179, 179);
+  font-size: 15px;
+}
+.leave-btn{
+  background: rgb(37, 209, 3);
+  width: 100px;
+  margin: 10px;
+  align-self: center;
+  
+}
+
+.leave-btn:hover{
+  background-color: rgb(136, 255, 0);
+  font-size: 15px;
+}
+
+.CodeMirror{
+  font-size: 20px;
+  min-height: 100vh;
+  line-height: 1.6;
+  padding-top: 20px;
+}
